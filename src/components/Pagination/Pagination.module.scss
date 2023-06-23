@@ -1,0 +1,32 @@
+@import '../../scss/base/vars';
+.wrapper {
+  max-width: $container;
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  padding: 50px 0px;
+
+  background-color: $white;
+}
+
+.item {
+  width: 45px;
+  height: 45px;
+
+  display: inline-block;
+
+  margin-right: 10px;
+
+  border: 1px solid $secondColor;
+  border-radius: 30px;
+  color: $secondColor;
+  line-height: 42px;
+  text-align: center;
+
+  cursor: pointer;
+
+  &[data-active='true'] {
+    color: $white;
+    background-color: $secondColor;
+  }
+}

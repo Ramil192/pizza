@@ -1,0 +1,44 @@
+@import '../../scss/base/vars';
+
+.wrapper {
+  max-width: $container;
+
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+
+  margin: 43px auto 0px;
+  padding: 50px 38px 81px 77px;
+
+  background-color: $white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  &::before {
+    content: '';
+    width: 90%;
+    height: 1px;
+
+    position: absolute;
+    bottom: 0px;
+
+    background: #f7f7f7;
+  }
+
+  @media (max-width: 992px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 425px) {
+    & {
+      padding: 10px;
+    }
+    &::before {
+      display: none;
+    }
+  }
+}

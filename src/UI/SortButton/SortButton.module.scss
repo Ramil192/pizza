@@ -1,0 +1,24 @@
+@import '../../scss/base/vars';
+
+.button {
+  height: 46px;
+  padding: 15px 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.015em;
+
+  color: #2c2c2c;
+  background: #f9f9f9;
+  border-radius: 30px;
+
+  &:hover {
+    color: $white;
+    background: #282828;
+  }
+
+  &[data-active='true'] {
+    color: $white;
+    background: #282828;
+  }
+}

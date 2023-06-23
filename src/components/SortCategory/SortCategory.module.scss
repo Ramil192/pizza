@@ -1,0 +1,16 @@
+@import '../../scss/base/vars';
+
+.wrapper {
+  max-width: 830px;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1176px) {
+    justify-content: center;
+  }
+}

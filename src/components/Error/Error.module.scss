@@ -1,0 +1,17 @@
+@import '../../scss/base/vars';
+
+.wrapper {
+  max-width: $container;
+  margin: 0 auto;
+
+  padding: 100px 0px;
+
+  text-align: center;
+  font-size: 22px;
+
+  background-color: $white;
+}
+
+.clue {
+  font-size: 48px;
+}

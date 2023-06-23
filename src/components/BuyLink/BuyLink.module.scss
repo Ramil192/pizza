@@ -1,0 +1,47 @@
+@import '../../scss/base/vars';
+
+.link {
+  height: 50px;
+  padding: 15px 23px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: $white;
+  background: $secondColor;
+  border-radius: 30px;
+}
+
+.price {
+  min-width: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 13px;
+
+  & > p {
+    margin-right: 4px;
+  }
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+}
+
+.line {
+  width: 1px;
+  height: 25px;
+
+  top: 11px;
+  left: 78px;
+  background: rgba(255, 255, 255, 0.25);
+}
